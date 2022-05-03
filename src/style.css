@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: unset;
+}
+.imagen {
+  width: 5rem;
+}
+p {
+  margin-bottom: 0;
+}
+h3 {
+  text-align: center;
+}
+.w {
+  width: 20rem;
+}
+.x {
+  text-align: center;
+  width: 10rem;
+  height: auto;
+  border-radius: 2rem 2rem 2rem 2rem;
+  background-color: #ededed;
+  color: #616161;
+}
+.s {
+  width: 3rem;
+  height: 3rem;
+}
+#s {
+  margin: 0;
+}
+.puntos {
+  width: 40%;
+  border-radius: 2rem 2rem 2rem 2rem;
+  background-color: #ededed;
+  color: #616161;
+}
+
+.sort {
+  justify-content: center;
+}
+.nav {
+  width: 75%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.entrada img {
+  width: 100%;
+}
+#ficha {
+  width: 25rem;
+}
+.entrada {
+  position: relative;
+}
+.Elec {
+  position: absolute;
+  bottom: 3.5rem;
+  left: 3.5rem;
+  font-size: 3rem;
+}
+.logo {
+  width: 5rem;
+  margin: 0;
+}
+.falta {
+  background-color: #616161;
+  color: white;
+  border-radius: 2rem;
+  width: 10rem;
+  text-align: center;
+}
+.precio {
+  width: 10rem;
+  position: absolute;
+  top: 30%;
+  right: 20%;
+}
+button {
+  all: unset;
+}
+#p {
+  margin: 0;
+  padding: 0;
+}
+.redeem {
+  width: 10rem;
+  position: absolute;
+  top: 60%;
+  right: 20%;
+  text-align: center;
+  color: #616161;
+  background-color: white;
+  border-radius: 2rem;
+  font-weight: bold;
+  height: 2rem;
+}
+.orden {
+  width: 10rem;
+  text-align: center;
+  color: #a3a3a3;
+  background-color: #ededed;
+  border-radius: 2rem;
+  font-weight: bold;
+  height: 2rem;
+}
+.producto {
+  font-size: 1.3rem;
+  color: #616161;
+  text-align: center;
+  line-height: 2.4rem;
+}
+.linea {
+  border-right: #a3a3a3 solid;
+  opacity: 0.7;
+}
+.orden:hover {
+  color: white;
+  background-color: rgb(37, 187, 241);
+}
+.over:hover .overlay {
+  opacity: 0.8;
+}
+.over1 {
+  box-shadow: 5px 5px 10px #dfd9d9;
+}
+.overlay {
+  margin: 0;
+  background-color: rgb(37, 187, 241);
+  width: 18rem;
+  height: 100%;
+  padding: 0;
+  opacity: 0;
+  border-radius: 1%;
+  transition: 0.9s ease;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  margin-right: 2rem;
+  margin-top: 0.4rem;
+}
+#dropdown-basic-button {
+  color: black;
+  background-color: white;
+}
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+@media (max-width: 400px) {
+  .w {
+    width: 10rem;
+  }
+}
+@media (min-width: 600px) {
+  .imagen {
+    width: 10rem !important;
+  }
+}
+@media (max-width: 360px) {
+  .nav {
+    width: 80%;
+  }
+  .logo {
+    width: 5rem;
+  }
+  #ficha {
+    width: 14rem;
+  }
+  .usuario {
+    width: 7rem;
+  }
+  .puntos {
+    width: 7rem;
+  }
+  .Elec {
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    font-size: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .sort {
+    justify-content: start;
+  }
+  .h {
+    columns: 12;
+    justify-content: flex-end;
+  }
+}
